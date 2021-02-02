@@ -149,6 +149,20 @@ body {
 	height: 50px;
 }
 
+@media screen and (max-width: 1080px) {
+	.bulb{
+		width: 100%;
+	}
+}	
+
+@media screen and (max-width: 780px) {
+	.bulb{
+		align: center;	
+		width: 25%;
+		float: none;
+	}
+}	
+
 .bulb-glow-yellow {
 	background-image: url('bulb_yellow.png');
 	-webkit-animation: bulb_glow_yellow linear 5s;
