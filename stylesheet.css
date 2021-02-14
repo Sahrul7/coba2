@@ -10,7 +10,7 @@ body {
 	overflow-x:hidden;
 }
 .container {
-	width: 90%;
+	width: 100%;
    	min-height: 200px;
 	background-color: #5F9EA0;
 }
